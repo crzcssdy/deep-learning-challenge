@@ -24,6 +24,8 @@ The purpose of this analysis is to create an algorithm using machine learning in
 - In order to increase the model performance, I first dropped the organization and special_considerations column since I doubted whether they were significant to the overall model performance, and then I modified the cutoff values from 500 to 900 to see if that would have any impact. In the next couple attempts, 
 I began to modify the two hidden layers to see if there were any changes in result.
 
-## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+## Summary:
 Overall, the deep learning model was around 72.2% accurate in predicting the classification problem. Using a model with greater correlation between input and output would likely result in higher prediction accuracy. 
 This could be achieved by doing additional data cleanup during the preprocessing stage, perhaps also using a model with different activation functions and iterating again until a higher accuracy is achieved.
+
+
